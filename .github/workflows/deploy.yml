@@ -27,4 +27,4 @@ jobs:
           tags: mscode07/ci-cd-class
 
       - name: Verify Pushed Image
-        run: docker pull 100xdevs/web-app:latest
+        run: docker pull mscode07/ci-cd-class:latest
